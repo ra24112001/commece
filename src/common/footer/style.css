@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  background-color: #BACD92;
+  padding: 100px 0;
+  color: #75A47F;
+  position: relative; /* Ensure it stays at the bottom */
+  bottom: 0; /* Position it at the bottom */
+  width: 100%; /* Make it full width */
+}
+  footer h1 {
+    margin-bottom: 30px;
+    color:#d3b9b1;
+    font-weight: 800;
+    font-style:italic;
+  }
+  footer span {
+    
+    color:#d3b9b1;
+   
+  
+  }
+  footer .img {
+    background-color:  #d3b9b1;;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+  footer .img i {
+    font-size: 20px;
+    margin: 5px;
+  }
+  footer .img span {
+    margin-top: 5px;
+  }
+  footer p {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 20px;
+  }
+  footer h2 {
+    margin-bottom: 20px;
+    color:#d3b9b1;
+  }
+  footer li {
+    margin-bottom: 10px;
+    opacity: 0.7;
+  }
+  @media (max-width: 768px) {
+    footer {
+      padding: 50px 0;
+    }
+  
+    footer h1 {
+      font-size: 24px;
+    }
+  
+    footer p {
+      font-size: 12px;
+    }
+    footer .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    footer .box {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }

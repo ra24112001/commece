@@ -1,0 +1,73 @@
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .product-image {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-container {
+    margin-top: 20px;
+    margin-right: 85%;
+  }
+  
+  .feedback-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-button {
+    cursor: pointer;
+    background-color: #d3b9b1;
+    margin-right: 85%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+ 
+  
+  .feedback-list {
+    margin-top: 20px;
+    margin-right: 70%;
+  }
+  
+  .feedback-item {
+    width: 100%;
+    
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-right: 70%;
+  }
+  .star-filled {
+    color: rgb(172, 160, 73); /* Change color to whatever you prefer for filled stars */
+  }
+  
+  .star-empty {
+    color: lightgray; /* Change color to whatever you prefer for empty stars */
+  }
+ .delete_feedback{
+
+  cursor: pointer;
+  background-color: #d3b9b1;
+  margin-right: 85%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+ } 
+ .update_feedback{
+
+  cursor: pointer;
+  background-color: #d3b9b1;
+  margin-right: 85%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+ }
+  

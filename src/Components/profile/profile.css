@@ -1,0 +1,45 @@
+/* Profile.css */
+.profile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-container h2 {
+  margin-bottom: 20px;
+}
+
+.profile-container div {
+  margin-bottom: 15px;
+}
+
+.profile-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profile-container input[type="text"],
+.profile-container input[type="email"],
+.profile-container input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.profile-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d3b9b1;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.profile-container button:hover {
+  background-color: #d3b9b1;
+}

@@ -1,0 +1,45 @@
+.homeSlide{
+    margin-top: 1px;
+}
+.homeSlide h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 50px 0 20px 0;
+  }
+  .homeSlide p {
+    margin: 20px 0;
+  }
+  .homeSlide ul {
+    position: absolute;
+    bottom: 20px;
+  }
+  .btn-primary:hover {
+    
+    transform: translate(10px, -10px)
+  }
+  @media (max-width: 768px) {
+    .homeSlide h1 {
+      font-size: 30px; 
+      line-height: 40px; 
+      margin: 30px 0 10px 0; 
+    }
+  
+    .homeSlide p {
+      margin: 10px 0; 
+    }
+  
+    .homeSlide ul {
+      position: static; 
+      margin-top: 10px; 
+    }
+  
+    .homeSlide ul li {
+      padding: 5px; 
+      margin-right: 5px; 
+    }
+
+    .homeSlide ul li button::before {
+      font-size: 12px; 
+    }
+    
+  }

@@ -1,0 +1,83 @@
+/* AddNewProduct.css */
+
+.add-new-product-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-new-product-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-new-product-container form {
+    margin-bottom: 20px;
+  }
+  
+  .add-new-product-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .add-new-product-container input[type="text"],
+  .add-new-product-container input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .add-new-product-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #d3b9b1;
+   
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+ 
+  .add-new-product-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .add-new-product-container li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-new-product-container .product-image {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+  }
+  
+  .add-new-product-container .delete-button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-new-product-container .delete-button:hover {
+    background-color: #c82333;
+  }
+  .deletenewproduct{
+    padding: 10px 20px;
+    background-color: #d3b9b1;
+   
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 30%;
+  }

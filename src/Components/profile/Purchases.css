@@ -1,0 +1,21 @@
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .item h3 {
+    margin-top: 10px;
+  }
+  
+  .item p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
